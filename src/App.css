@@ -1,3 +1,7 @@
+body {
+  background-color: #152b3e;
+}
+
 .App {
   text-align: center;
 }
@@ -8,7 +12,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +19,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-footer {
+  margin: 50px 0px 20px 0px;
+  background-color: green;
+  background: linear-gradient(to right, transparent, 10%, green, 90%, transparent);
+}
+
+.App-footer > .footer-green-line > p{
+  color: #fff;
+  padding: 10px 0px 10px 0px;
 }
 
 .App-link {
