@@ -1,0 +1,51 @@
+.header {
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    box-shadow: none;
+  }
+  
+  nav {
+      height: 150px;
+      background-color: #2F4055;
+      padding: 25px;
+      line-height: 10px;
+      text-align: left;
+  }
+
+  .nav-wrapper {
+    background-color: #2F4055;
+  }
+  
+  .nav-wrapper .brand-logo {
+    text-align: center;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 20%;
+    margin: auto; 
+  }
+
+  .header-left {
+      /* font-size: 25px; */
+      float: center;
+    padding-left: 30px;
+  }
+
+  i.material-icons {
+      display: inline-block;
+  }
+  
+  #nav-mobile li{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%; 
+    text-align: center;
+  }
+
+  .inline {
+      display: inline-block;
+  }

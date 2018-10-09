@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    background: linear-gradient(to right, transparent, 10%, green, 90%, transparent);
+    color: white;
+    margin: 40px 10px 0px 10px;
+  }
+  
+  .App-footer > .footer-green-line > p{
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .footer i {
+    float: left;
+    
+  }
